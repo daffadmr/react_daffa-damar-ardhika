@@ -3,7 +3,7 @@
 ## Praktikum
 Analisis desain dari: [Link Figma](https://www.figma.com/file/Tk4c9OwKIjylGkhp0qtyss/Tugas-Prototype)
 
-1. Button
+1. Button\
 ![Button](resources/button.png)
 - warna dalam satuan RGB: rgb(255,255,255)
 - Shadow-nya menggunakan: Drop shadow
@@ -11,7 +11,7 @@ Analisis desain dari: [Link Figma](https://www.figma.com/file/Tk4c9OwKIjylGkhp0q
 - box-shadow: 0px 2px 4px 0px rgba(15, 218, 137, 0.3)
 - border-radius: 12px
 
-2. Card
+2. Card\
 ![Card](resources/card.png)
 - Width: 150px
 - Height: 210px
