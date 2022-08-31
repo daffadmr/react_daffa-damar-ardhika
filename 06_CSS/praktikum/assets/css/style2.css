@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+
+main{
+    background-image: url("../img/sample-pattern.png");
+    padding: 10px 50px 50px 50px;
+}
+
+main h1{
+    text-align: center;
+    margin: 20px;
+    color: darkslategrey;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post{
+    padding: 20px;
+    max-width: 1000px;
+    margin: 2px auto;
+    background-color: white;
+}
+
+.post h3, p{
+    margin: 20px;
+}
+
+.post h3{
+    color: cornflowerblue;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+@media screen and (max-width:600px) {
+    nav ul{
+        gap: 5px;
+    }
+}
