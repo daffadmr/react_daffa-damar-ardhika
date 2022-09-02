@@ -1,0 +1,9 @@
+.feature-text{
+    text-align: justify;
+    max-width: 500px;
+}
+
+.footer-bottom button{
+    right: 20px;
+    bottom: 20px;
+}
