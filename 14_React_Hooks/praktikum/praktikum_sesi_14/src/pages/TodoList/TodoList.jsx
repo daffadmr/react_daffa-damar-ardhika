@@ -47,7 +47,7 @@ const TodoList = () => {
       <Todos
         todos={todos}
         onDelete={handleDelete}
-        checked={handleCheckbox}
+        onCheck={handleCheckbox}
         isChecked={isChecked}
       />
     </div>

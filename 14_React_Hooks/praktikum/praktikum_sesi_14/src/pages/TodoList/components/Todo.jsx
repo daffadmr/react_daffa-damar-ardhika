@@ -1,6 +1,6 @@
 import React from "react";
 
-const Todo = ({ todo, onDelete, checked, isChecked }) => {
+const Todo = ({ todo, onDelete, onCheck, isChecked }) => {
   return (
     <div className="todo">
       {
@@ -8,7 +8,7 @@ const Todo = ({ todo, onDelete, checked, isChecked }) => {
           <li className={todo.completed ? "done" : "undone"}>
             <input
               type="checkbox"
-              onClick={() => checked(todo)}
+              onChange={() => onCheck(todo)}
               defaultChecked={todo.completed ? isChecked : !isChecked}
             />
             {todo.title}
