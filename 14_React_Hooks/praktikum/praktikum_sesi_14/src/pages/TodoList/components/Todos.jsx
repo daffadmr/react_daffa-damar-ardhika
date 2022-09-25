@@ -1,7 +1,7 @@
 import React from "react";
 import Todo from "./Todo";
 
-const Todos = ({ todos, onDelete, onCheck, isChecked}) => {
+const Todos = ({ todos, onDelete, onCheck}) => {
   return (
     <div className="todos">
       <ul>
@@ -11,7 +11,6 @@ const Todos = ({ todos, onDelete, onCheck, isChecked}) => {
             todo={todo}
             onDelete={onDelete}
             onCheck={onCheck}
-            isChecked={isChecked}
           />
         ))}
       </ul>

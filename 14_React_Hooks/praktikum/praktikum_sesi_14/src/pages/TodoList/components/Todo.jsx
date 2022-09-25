@@ -9,7 +9,7 @@ const Todo = ({ todo, onDelete, onCheck, isChecked }) => {
             <input
               type="checkbox"
               onChange={() => onCheck(todo)}
-              defaultChecked={todo.completed ? isChecked : !isChecked}
+              defaultChecked={todo.completed ? true : false}
             />
             {todo.title}
           </li>
