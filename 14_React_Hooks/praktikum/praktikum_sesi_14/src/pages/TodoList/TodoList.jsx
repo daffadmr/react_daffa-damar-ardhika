@@ -2,12 +2,12 @@ import React from "react";
 import TodoForm from "./components/TodoForm";
 import Todos from "./components/Todos";
 import data from "../../data.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const TodoList = () => {
   const [todos, setTodos] = useState([...data]);
   const [inputTodo, setInputTodo] = useState("");
-  const [isChecked, setIsChecked] = useState(true);
+  const [tasksRemaining, setTasksRemaining] = useState(0)
 
   const addTodo = (userInput) => {
     let newTodo = [...todos];
@@ -21,6 +21,10 @@ const TodoList = () => {
     ];
     setTodos(newTodo);
   };
+
+  useEffect(() => { 
+    setTasksRemaining(todos.filter(todo => !todo.completed).length) 
+  }, [todos]);
 
   const handleDelete = (id) => {
     const deletedTodo = todos.filter((todo) => {
@@ -39,6 +43,7 @@ const TodoList = () => {
   return (
     <div className="todoList">
       <h1>todos</h1>
+      <p>Kegiatan yang belum diselesaikan: <span style={tasksRemaining ? {color: "red"} : {color: "black"}}>{tasksRemaining}</span></p>
       <TodoForm
         addTodo={addTodo}
         inputTodo={inputTodo}
@@ -48,7 +53,6 @@ const TodoList = () => {
         todos={todos}
         onDelete={handleDelete}
         onCheck={handleCheckbox}
-        isChecked={isChecked}
       />
     </div>
   );
