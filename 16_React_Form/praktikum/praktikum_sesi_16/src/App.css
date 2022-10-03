@@ -1,0 +1,121 @@
+h1 {
+  text-align: center;
+}
+
+.form-utama {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+select {
+  border-radius: 5px;
+  font: inherit;
+}
+
+input[type="file"] {
+  font: inherit;
+  margin-bottom: 10px;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  cursor: pointer; 
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 800px;
+  margin: 5px 0px 0px 0px;
+  resize: none;
+  border-radius: 5px;
+  font: inherit;
+  padding: 5px 5px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+label p {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 5px 0px;
+}
+
+small{
+  justify-self: flex-start;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0px 0px;
+}
+
+button{
+  font: inherit;
+}
+
+.submit-button {
+  background-color: rgb(19, 153, 19);
+  border-radius: 10px;
+  color: white;
+  border: 0;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  opacity: 0.8;
+}
+
+.submit-button:active{
+  opacity: 1;
+  background-color: rgb(22, 104, 22);
+}
+
+.submit-button:disabled, .submit-button:hover
+button[disabled]{
+  opacity: 1;
+  cursor: auto;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.reset-button {
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.reset-button:hover{
+  opacity: 0.7;
+}
+
+.reset-button:active{
+  opacity: 1;
+  background-color: darkred;
+}
