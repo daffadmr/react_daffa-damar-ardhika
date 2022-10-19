@@ -1,0 +1,26 @@
+mutation insertNilaiAnggaToKeterangan($id_anggota: Int, $nilai: Int, $pelajaran: String, $status: Boolean) {
+  insert_kampus_merdeka_keterangan(objects: {id_anggota: $id_anggota, nilai: $nilai, pelajaran: $pelajaran, status: $status}) {
+    returning {
+      id
+      id_anggota
+      nilai
+      pelajaran
+      status
+    }
+  }
+}
+
+
+{
+    "id_anggota": 3, 
+    "nilai": 90, 
+    "pelajaran": "Sistem Informasi", 
+    "status": true
+}
+
+{
+    "id_anggota": 3, 
+    "nilai": 55, 
+    "pelajaran": "React", 
+    "status": false
+}
