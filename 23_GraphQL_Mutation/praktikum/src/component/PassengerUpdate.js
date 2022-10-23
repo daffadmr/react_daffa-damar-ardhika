@@ -36,6 +36,7 @@ function PassengerUpdate(props) {
           jenisKelamin: state.jenisKelamin,
         };
         props.editPassenger(editData);
+        console.log(state.nama)
         setState({
           editing: true
         });
@@ -71,7 +72,7 @@ function PassengerUpdate(props) {
           className="input-text"
           placeholder="Nama ..."
           defaultValue={state.nama}
-          name="name"
+          name="nama"
           onChange={onChange}
         />
         <p>Edit Umur</p>
