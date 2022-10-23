@@ -69,6 +69,7 @@ REVOKE INSERT
 REVOKE UPDATE
 
 #### Hasil Praktikum
+
 Relasi one-to-one
 ![one_to_one](screenshot_praktikum/one_to_one.png)
 
