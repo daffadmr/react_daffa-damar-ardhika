@@ -31,3 +31,10 @@
 		- startPolling
 		- subscribeToMore
 		- updateQuery
+
+#### Hasil Praktikum
+Get All Passenger
+![getPassenger](./screenshot_praktikum/getPassenger.png)
+
+Get Passenger by Id
+![getPassengerById](./screenshot_praktikum/getPassengerById.png)
