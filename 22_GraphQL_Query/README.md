@@ -30,6 +30,7 @@
 		- fetchMore
 		- startPolling
 		- subscribeToMore
+<<<<<<< HEAD
 		- updateQuery
 
 #### Hasil Praktikum
@@ -38,3 +39,6 @@ Get All Passenger
 
 Get Passenger by Id
 ![getPassengerById](./screenshot_praktikum/getPassengerById.png)
+=======
+		- updateQuery
+>>>>>>> c4d430f56337a8c71cbf8d5498ca45439843d95f
