@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+/* Brand Start */
+.brand {
+  text-align: center;
+}
+
+/* Brand End */
+
+/* Navigasi Start */
+
+.navbar {
+  padding: 15px 0px;
+  font-family: "Dosis";
+  font-size: 23px;
+  background: white;
+  border-bottom: 1px inset;
+}
+
+.navbar-brand {
+  font-family: "Dosis";
+  font-size: 25px;
+}
+
+.nav-link {
+  color: black !important;
+  margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  opacity: 0.7;
+}
+
+/* Navigasi End */
+
+/* Caraousel Start */
+
+.carousel-item {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-indicators {
+  z-index: 999;
+}
+
+/* Caraousel End */
+
+/* Welcome Start */
+.welcome {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.welcome .welcome-title hr {
+  width: 150px;
+  border-top: 1.5px solid #6b6a69;
+  text-align: center;
+  margin: auto;
+}
+
+.welcome .welcome-title {
+  font-family: "MS Madi";
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.welcome .welcome-title h1 {
+  font-weight: bold;
+}
+
+.welcome .welcome-text {
+  font-family: "Raleway";
+  margin: auto;
+  text-align: justify;
+}
+
+/* Welcome End */
+
+/* Order Start */
+.order {
+  background-color: #423f3e;
+  font-family: "Raleway";
+  text-align: justify;
+}
+
+.order .order-left h1 {
+  padding-top: 50px;
+  text-align: start;
+}
+
+.order .order-right img {
+  box-shadow: 35px 35px 0px 0px #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.order .order-left .btn:hover {
+  background-color: #423f3e;
+  color: #ffffff;
+}
+
+/* Contact Start */
+
+/* ///// inputs /////*/
+
+.contact hr {
+  width: 230px;
+  border-top: 1.5px solid #6b6a69;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-section .contact-text h3 {
+  font-size: 25px;
+}
+
+.contact-section .contact-text span {
+  color: #e73587;
+}
+
+.contact-section label {
+  display: block;
+  padding: 8px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 6px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 168px;
+  width: 554px;
+  resize: none;
+}
+
+.contact-form button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 13px;
+  padding: 12px 40px 13px 40px;
+  color: #fff;
+  border: none;
+  background-color: #8e9c8b;
+}
+
+/* Contact End */
+
+/* Footer Start */
+.footer {
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  background-color: #8e9c8b;
+  padding-top: 2em;
+  /* bottom: 0;
+    position: absolute;
+    width: 100%; */
+}
+
+.footer .container .Copyright {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.footer .footer-social-item {
+  text-decoration: none;
+  color: #423f3e;
+  font-size: 30px;
+  margin-right: 1em;
+}
+
+.footer .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Footer End */
+body {
+  background-color: white;
+}
+
+.title {
+  font-family: "MS Madi";
+  background-color: #8e9c8b;
+}
+
+h2 {
+  font-family: "MS Madi";
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  line-height: 1.5;
+}
